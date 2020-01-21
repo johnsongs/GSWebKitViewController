@@ -1,0 +1,6 @@
+framework module GSWebKitViewController {
+  umbrella header "GSWebKitViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

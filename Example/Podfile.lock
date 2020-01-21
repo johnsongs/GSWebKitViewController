@@ -1,0 +1,16 @@
+PODS:
+  - GSWebKitViewController (0.1.0)
+
+DEPENDENCIES:
+  - GSWebKitViewController (from `../`)
+
+EXTERNAL SOURCES:
+  GSWebKitViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GSWebKitViewController: ce840ad8595dda2912989a919ce1e16cbfc1190d
+
+PODFILE CHECKSUM: 245030d1336de9f5669ff217ceed546982580a54
+
+COCOAPODS: 1.8.4

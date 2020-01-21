@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD86A1623D6B7BC00AA5ADB /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD86A1423D6B7BC00AA5ADB /* GSViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +39,9 @@
 
 /* Begin PBXFileReference section */
 		0C14518C4F9454394783F673 /* Pods-GSWebKitViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSWebKitViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-GSWebKitViewController_Example/Pods-GSWebKitViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1C678F9CF2C971E022AFB570 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1C678F9CF2C971E022AFB570 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CD86A1423D6B7BC00AA5ADB /* GSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSViewController.m; path = "../../../GS-ios-module-GSWebKitViewController/Example/GSWebKitViewController/GSViewController.m"; sourceTree = "<group>"; };
+		2CD86A1523D6B7BC00AA5ADB /* GSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSViewController.h; path = "../../../GS-ios-module-GSWebKitViewController/Example/GSWebKitViewController/GSViewController.h"; sourceTree = "<group>"; };
 		4598559E2AA59CC0F94257C9 /* Pods_GSWebKitViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSWebKitViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		513721B3E92D83A92991E132 /* Pods-GSWebKitViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSWebKitViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-GSWebKitViewController_Tests/Pods-GSWebKitViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GSWebKitViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSWebKitViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +67,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80C591633178B72F651EE0E /* Pods-GSWebKitViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSWebKitViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GSWebKitViewController_Tests/Pods-GSWebKitViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B57F6C9A9319213F6F44A3E7 /* Pods-GSWebKitViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSWebKitViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-GSWebKitViewController_Example/Pods-GSWebKitViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C31EE76CE8754500C4712856 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C31EE76CE8754500C4712856 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA2D9DB539955E9C5556D4E8 /* Pods_GSWebKitViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSWebKitViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5CF503711F877615FB77B45 /* GSWebKitViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GSWebKitViewController.podspec; path = ../GSWebKitViewController.podspec; sourceTree = "<group>"; };
+		D5CF503711F877615FB77B45 /* GSWebKitViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GSWebKitViewController.podspec; path = ../GSWebKitViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* GSAppDelegate.h */,
 				6003F59D195388D20070C39A /* GSAppDelegate.m */,
+				2CD86A1523D6B7BC00AA5ADB /* GSViewController.h */,
+				2CD86A1423D6B7BC00AA5ADB /* GSViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GSViewController.h */,
 				6003F5A6195388D20070C39A /* GSViewController.m */,
@@ -193,7 +198,6 @@
 				A80C591633178B72F651EE0E /* Pods-GSWebKitViewController_Tests.debug.xcconfig */,
 				513721B3E92D83A92991E132 /* Pods-GSWebKitViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4E628A27B23DC73E4EA2F569 /* [CP] Embed Pods Frameworks */,
+				FB96AE40AAFBDC49F8AC8FE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,24 +322,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4E628A27B23DC73E4EA2F569 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GSWebKitViewController_Example/Pods-GSWebKitViewController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GSWebKitViewController/GSWebKitViewController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSWebKitViewController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSWebKitViewController_Example/Pods-GSWebKitViewController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CBCAF6856ADBA7230A05D956 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +344,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FB96AE40AAFBDC49F8AC8FE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSWebKitViewController_Example/Pods-GSWebKitViewController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GSWebKitViewController/GSWebKitViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSWebKitViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSWebKitViewController_Example/Pods-GSWebKitViewController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,6 +371,7 @@
 			files = (
 				6003F59E195388D20070C39A /* GSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GSViewController.m in Sources */,
+				2CD86A1623D6B7BC00AA5ADB /* GSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
