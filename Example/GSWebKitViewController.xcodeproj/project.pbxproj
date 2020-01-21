@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GSAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GSViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -54,8 +53,6 @@
 		6003F59B195388D20070C39A /* GSWebKitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSWebKitViewController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* GSWebKitViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSWebKitViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -140,8 +137,6 @@
 				2CD86A1523D6B7BC00AA5ADB /* GSViewController.h */,
 				2CD86A1423D6B7BC00AA5ADB /* GSViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GSViewController.h */,
-				6003F5A6195388D20070C39A /* GSViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -370,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* GSAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* GSViewController.m in Sources */,
 				2CD86A1623D6B7BC00AA5ADB /* GSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -503,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GSWebKitViewController/GSWebKitViewController-Prefix.pch";
 				INFOPLIST_FILE = "GSWebKitViewController/GSWebKitViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GSWebKitViewController/GSWebKitViewController-Prefix.pch";
 				INFOPLIST_FILE = "GSWebKitViewController/GSWebKitViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
